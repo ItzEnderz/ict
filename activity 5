@@ -2,5 +2,5 @@ SEND 'Please enter the first number' TO DISPLAY
 RECIEVE firstNumber FROM KEYBOARD
 SEND 'Please enter the second number" TO DISPLAY
 RECEIVE secondNumber FROM KEYBOARD
-SET total TO firstNumber + secondNumber
+SET total TO firstNumber x secondNumber
 SEND total TO DISPLAY
