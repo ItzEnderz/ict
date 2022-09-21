@@ -1,0 +1,6 @@
+SEND"Enter height(in meters)" TO DISPLAY
+RECEIVE height FROM KEYBOARD
+SEND"Enter weight(in kilograms)" TO DISPLAY
+RECEIVE weight FROM KEYBOARD
+SET BMI TO weight/height^2
+SEND"Your boady mass index is" BMI TO DISPLAY
