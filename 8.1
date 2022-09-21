@@ -1,0 +1,12 @@
+SET mystNumb to 3
+SEND"Please enter number" TO DISPLAY
+RECEIVE guess FROM KEYBOARD
+IF guess > 10 then
+SEND"Too high your guess must be between 1-10" TO DISPLAY
+ELSE
+IF guess = mystNumb then
+SEND"Your correct my number is 3" TO DISPLAY
+ELSE
+SEND"Better luck next time my number was 3" TO DISPLAY
+END IF
+END IF
